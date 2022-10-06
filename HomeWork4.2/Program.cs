@@ -3,7 +3,7 @@
 
 Console.WriteLine("Введите число: ");
 int x = int.Parse(Console.ReadLine()); //Считали число
-int[] array = {x}; //присвоили массив
+int[] array = ArrayRandom(x); //присвоили массив
 Console.WriteLine($"Сумма цифр данного числа {ArrayRandom(x)}");
 
 int[] ArrayRandom (int size)
